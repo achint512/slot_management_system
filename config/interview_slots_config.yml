@@ -1,0 +1,26 @@
+default: &DEFAULT
+  validate_params:
+    index:
+      - studentId
+      - startDateTime
+      - endDateTime
+    create:
+      - studentId
+      - interviewSlotId
+  free_mock_interview:
+    limit: 15
+    below_average_grade_value: 1
+    no_of_latest_interviews_to_check: 2
+    datetime_format: '%a, %b %d, %Y %I:%M %p' # Format: Sun, Jan 17, 2021 02:17 PM
+
+development:
+  <<: *DEFAULT
+
+test:
+  <<: *DEFAULT
+
+staging:
+  <<: *DEFAULT
+
+production:
+  <<: *DEFAULT

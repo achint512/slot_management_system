@@ -1,0 +1,8 @@
+en:
+  interview_slots:
+    success: 'Interview slot has been successfully scheduled.'
+    unavailable:
+      free_limit_exhausted: 'Student has already scheduled all free mocks'
+      less_grade: 'Due to poor performance in last 2 interviews, no more interviews can be scheduled'
+      interview_already_exits: 'Interview already exists for the chosen time range'
+      no_slot_found: 'No Interview slot available for the chosen time range'
