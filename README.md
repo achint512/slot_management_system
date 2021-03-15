@@ -1,4 +1,4 @@
-## Welcome to Achint't slot management system
+## Welcome to slot management system
 ```text
 This is a sample project wherein a user can find relevant interview slots basis interviewers availability.
 ```
